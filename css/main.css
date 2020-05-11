@@ -1,0 +1,208 @@
+/*
+Some dicumentation things:
+1) Class (block) name consisting of few full word write like this : class-class-class;
+2) Element name write like this (child of block): class-class__element-element;
+3) Modificator pf block or element write liket this: class-class__element-element_modificator;
+4) Separate element modificator write liket this: -element_modificator (for creating common class styles)
+5) Sometimes use single element and modificator like this: __element_modificator
+*/
+
+/*FONTS=====================================*/
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../css/fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../css/fonts/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../css/fonts/Roboto-Bold.ttf");
+  font-weight: 600;
+}
+
+/*==========================================*/
+
+/*COMMON STYLES=============================*/
+.main-container {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.menu__links_margin {
+  justify-content: flex-end;
+}
+
+.nav-item {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.nav-link_margin {
+  margin-left: 40px;
+}
+
+.menu {
+  box-shadow: 0px 5px 15px rgba(33, 51, 101, 0.1);
+}
+
+._like-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #333333;
+}
+
+._border-blue-line {
+    background-image: linear-gradient(#12B2E7, #12B2E7);
+    background-size: 82px 3px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.padding-bottom-16 {
+  padding-bottom: 16px;
+}
+
+._border-blue-line-position-left {
+  background-position: left bottom;
+}
+
+.list-marker_style {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  margin-right: 30px;
+  border-radius: 10px;
+  background-color: #F1F9FF;
+  vertical-align: middle;
+  text-align: center;
+}
+/*===============================================================*/
+
+/* MAIN PAGE==================================================== */
+.jumbotron__download-button {
+  width: 278px;
+  height: 60px;
+  background: #12b2e7;
+  border: 3px solid #12b2e7;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.jumbotron__download-button > a {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.jumbotron__heading {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 67px;
+  color: #333333;
+  width: 692px;
+  /* width: 57.66%; */
+}
+
+.jumbotron__heading_margin {
+  margin-bottom: 20px;
+}
+
+.jumbotron__paragraph {
+  font-size: 18px;
+  line-height: 25px;
+  color: #555555;
+}
+
+.jumbotron__paragraph_margin {
+  margin-bottom: 52px;
+}
+
+.jumbotron__download-button_margin {
+  margin-bottom: 30px;
+}
+
+.header__jumbotron_margin {
+  margin-top: 156px;
+}
+
+.jumbotron_banner_position {
+  position: relative;
+  left: -50px;
+}
+
+.header_padding {
+  padding-bottom: 157px;
+}
+
+.kodi-info_background {
+  background: #222222;
+}
+
+.kodi-info__paragraph {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.kodi-info__padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.kodi-features__item-ico_margin {
+  margin-bottom: 30px;
+}
+
+.kodi-features__item_parag_text {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #555555;
+  width: 245px;
+}
+
+.kodi-features_padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.kodi-features__heading_margin {
+  margin-bottom: 75px;
+}
+
+.kodi-features_background {
+  background-color: #F1F9FF;
+}
+
+.kodi-android_padding {
+  padding-top: 137px;
+  padding-bottom: 77px;
+}
+
+.kodi-android__list_margin {
+  margin-top: 41px;
+}
+
+.kodi-android__list-item_text {
+  font-size: 18px;
+  line-height: 25px;
+  color: #555555;
+  width: 595px;
+}
+/* ============================================================= */

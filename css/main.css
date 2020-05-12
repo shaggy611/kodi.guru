@@ -102,6 +102,14 @@ li {
 ._blue-text {
   color: #12b2e7;
 }
+
+._padding-left-0 {
+  padding-left: 0 !important;
+}
+
+._padding-right-0 {
+  padding-right: 0 !important;
+}
 /*===============================================================*/
 
 /* MAIN PAGE==================================================== */
@@ -208,7 +216,6 @@ li {
 
 .kodi-android_padding {
   padding-top: 137px;
-  padding-bottom: 77px;
 }
 
 .kodi-android__list_margin {
@@ -234,7 +241,7 @@ li {
 }
 
 .table thead th {
-  padding-left: 102px !important;
+  /* padding-left: 102px !important; */
 }
 
 thead {
@@ -244,7 +251,6 @@ thead {
   font-size: 24px;
   line-height: 28px;
   color: #12b2e7;
-  border: 1px solid rgba(160, 224, 245, 0.4);
 }
 
 tbody {
@@ -255,16 +261,19 @@ tbody {
 }
 
 .table__first-column-padding {
-  padding-left: 102px !important;
-  display: flex;
+  /* padding-left: 102px !important; */
 }
 
 .table tr {
-  border: 1px solid rgba(160, 224, 245, 0.4);
+  border-bottom: 1px solid rgba(160, 224, 245, 0.4);
 }
 
-.table {
+.kodi-android__table-wrapper_border {
+  border: 1px solid rgba(160, 224, 245, 0.4);
   border-radius: 8px;
-  overflow: hidden;
+}
+
+.kodi-android__table-wrapper_margin {
+  margin-top: 77px;
 }
 /* ============================================================= */

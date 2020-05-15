@@ -1,1140 +1,750 @@
-@media (min-width: 320px) and (max-width: 767px) {
-      /*COMMON STYLES====================================*/
-    html,
-    body {
-        overflow-x: hidden;
-        margin: 0;
-        position: relative;
-    }
-
-    ._hide-on-mobile {
-        display: none;
-    }
-
-    ._show-on-mobile {
-        display: block;
-    }
-
-    .__heading_text {
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 28px;
-        text-align: center;
-    }
-
-    ._zero-margin-bottom {
-        margin-bottom: 0;
-    }
-
-    /*Rating common block for site===================================*/
-    .rating-common-block-items-wrapper {
-        display: block;
-        /*width: 100%;*/
-        width: 320px;
-        justify-content: center;
-        margin-left: auto;
-    margin-right: auto;
-    }
-
-    .rating-common-block-item_margin {
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-top: 27px;
-        margin-bottom: 75px;
-    }
-
-    .rating-common-block-item {
-        /*width: 93.75% !important;*/
-        position: relative;
-        box-shadow: 0px 4px 13px rgba(68, 102, 221, 0.25);
-    }
-
-    .rating-common-block-item-image {
-        position: absolute;
-        left: 0;
-        top: 0px;
-        /*width: 93.75%;*/
-        width: 300px;
-        z-index: -1;
-    }
-
-    .rating-common-block_text {
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 28px;
-        text-align: center;
-    }
-
-    .rating-common-block_margin {
-        margin-top: 30px;
-        margin-bottom: 1px;
-    }
-
-    /*===============================================================*/
-    .__reviews-item-button-transparent_face {
-        width: 56.25%;
-    }
-    /*===============================================================*/
-    .menu__site-name_text-style {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 19px;
-    }
-    .welcome-text-and-search_font_style {
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 28px;
-    }
-    .welcome-text-and-search__p {
-        width: 81.25%;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .welcome-text-and-search_background-image {
-        background-image: url('../img/logo-baner-mobile.png');
-        background-repeat: no-repeat;
-        background-position: top;
-    }
-    .block_set-center-position-max-width {
-        max-width: 320px;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .welcome-text-and-search__p_margin {
-        margin-top: 135px;
-        margin-bottom: 30px;
-    }
-    .welcome-text-and-search__input {
-        width: 81.25%;
-        height: 52px;
-        padding-left: 26px;
-        background-image: url('../img/search-ico.png');
-        background-repeat: no-repeat;
-        background-position: 230px;
-        border: none;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-    .welcome-text-and-search__input_margin {
-        margin-bottom: 20px;
-    }
-    .welcome-text-and-search__button {
-        width: 62.5%;
-        height: 52px;
-        display: flex;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .header_height {
-        height: 650px;
-    }
-    .logo-image_margin {
-        margin-right: 8px;
-        margin-left: 30px;
-    }
-    .menu__button-toogler {
-        border: none;
-        background-color: transparent;
-        background-image: url('../img/menu-button.png');
-        background-repeat: no-repeat;
-        margin-left: auto;
-        margin-right: 30px;
-        width: 33px;
-        height: 15px;
-    }
-    .menu__mobile-navbar-link_face {
-        width: 222px;
-        background-color: #013B92;
-        position: absolute;
-        text-align: end;
-        top: 70px;
-        right: -222px;
-        transition: right .2s;
-        height: 100vh;
-        padding-top: 30px;
-        overflow-x: hidden;
-        display: block;
-    }
-
-    .menu__navbar-link_padding {
-        display: block;
-        padding: 30px;
-    }
-
-    .roll-out-menu-mobile {
-        right: 0px;
-        transition: right .2s;
-        z-index: 2;
-        transform: translateZ(0);
-    }
-    .disable-scroll-when-menu-show {
-        position: fixed;
-        width: 100%;
-    }
-
-    .rating_padding {
-        padding-top: 30px;
-    }
-
-    .rating__heading_padding {
-        padding-bottom: 0;
-    }
-    .rating__rate-table-mobile-item-stars-wrapper {
-        /*height: 36px;*/
-        width: 100%;
-        background: #477EE1;
-        box-shadow: 0px 4px 10px rgba(68, 102, 221, 0.25);
-        border-radius: 10px 10px 0px 0px;
-        padding-top: 13px;
-        padding-bottom: 13px;
-        display: flex;
-    }
-    .rating__rate-table-mobile-item {
-        height: 395px;
-        width: 93.75% !important;
-        box-shadow: 0px 4px 10px rgba(68, 102, 221, 0.25);
-        border-radius: 10px;
-        display: block !important;
-    }
-
-    .rating__rate-table-mobile-item_margin {
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 20px;
-        margin-bottom: 74px;
-    }
-    .rating__rate-table-mobile-item-site-name {
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 28px;
-        text-align: center;
-    }
-
-    .rating__rate-table-mobile-item-site-name_margin {
-        margin: 22px;
-    }
-
-    .rating__table-ul-mobeli_margin {
-        margin-left: 30px;
-        margin-bottom: 22px;
-    }
-
-    .rating__rate-table-mobile-item-price_text {
-        text-align: center;
-    }
-
-    .rating__rate-table-mobile-item-price_margin {
-        margin-bottom: 22px;
-    }
-
-    .rating__cell-button_face {
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        background: #FFB800;
-        border-radius: 29.5px;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 21px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        border: none;
-        width: 56.25%;
-        height: 40px;
-    }
-
-    .rating__cell-button-first_margin {
-        margin-bottom: 10px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .rating__cell-button-transparent_face {
-        border: 2px solid #FFB800;
-        box-sizing: border-box;
-        border-radius: 29.5px;
-        background: transparent;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 21px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #FFB800;
-        width: 56.25%;
-        height: 40px;
-    }
-
-    .rating__cell-button-transparent_margin {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .rating__rate-table-mobile-item-stars-block_face {
-        color: white;
-        display: block;
-        margin-right: 30px;
-        margin-left: auto;
-        text-align: center;
-    }
-
-    .rating__rate-table-mobile-item-number_face {
-        color: white;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 42px;
-        margin-left: 30px;
-    }
-
-    .rating__slider-wrapper {
-        max-width: 100%;
-    }
-
-    .reviews_padding {
-        padding-top: 1px;
-        padding-bottom: 0;
-    }
-
-    .rating_cell-button-transparent_color {
-        color: #477EE1;
-        border-color: #477EE1;
-    }
-    .rating_cell-button_color {
-        background-color: #477EE1;
-    }
-
-    .review__card-container-wrapper {
-        max-width: 100%;
-    }
-
-    .riview_card-face {
-        width: 100% !important;
-        height: 300px;
-        box-shadow: 0px 4px 10px rgba(68, 102, 221, 0.25);
-        display: block !important;
-    }
-
-    .review__cards_margin {
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 20px;
-        margin-bottom: 74px;
-    }
-
-    .reviews__heading_padding {
-        padding-bottom: 0;
-    }
-
-    .information-reasons_padding {
-        padding-top: 0;
-    }
-
-    .card_blue_text {
-        color: #01B1AC;
-    }
-
-    .cards__date_face {
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-right: 0;
-        margin-top: 9px;
-        margin-bottom: 9px;
-        padding-top: 10px;
-        text-align: end;
-    }
-
-    .information-reasons__heading_face {
-        width: 81.25%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .information-reasons__heading_padding {
-        padding-bottom: 20px;
-    }
-
-    .information-reasons__heading-second_face {
-        width: 81.25%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .information-reasons__heading-second_font {
-        font-size: 24px;
-        line-height: 28px;
-        color: #333333;
-    }
-
-    .information-reasons__p_face {
-        width: 81.25%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .information-reasons__reasons-item-img {
-        width: 12.5%;
-        margin-right: 17px;
-    }
-
-    .information-reasons__reasons-item {
-        width: 81.25% !important;
-        display: block !important;
-    }
-
-    .information-reasons__reasons-column-wrapper_margin {
-        margin-right: 0;
-    }
-
-    .information-reasons__reasons-item_margin {
-        margin-bottom: 32px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .information-reasons__reasons-block-mobile {
-        width: 100%;
-        display: block;
-    }
-
-    ._like-heading-3-font {
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 21px;
-    }
-
-    .faq__heading_face {
-        width: 81.25%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .faq_padding {
-        padding-top: 0;
-        padding-bottom: 30px;
-    }
-
-    .faq__heading_padding-bottom {
-        padding-bottom: 40px;
-    }
-
-    .faq__heading-p_face {
-        width: 81.25%;
-    }
-
-    .faq__inform-p_margin-bottom {
-        margin-bottom: 40px;
-    }
-    .faq__inform-p_face {
-        width: 81.25%;
-        margin-left: auto;
-        margin-right: auto;
-        transition: max-height .5s, padding .5s;
-        max-height: 0;
-        overflow: hidden;
-    }
-
-    ._open-close-element {
-        max-height: 420px;
-        transition: max-height .5s;
-    }
-
-    .faq__heading-p_margin {
-        margin-bottom: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        ;
-    }
-
-    .faq__scroll-down-pointer {
-        background-image: url('../img/scroll-down.png');
-        background-position: 90% center;
-        background-repeat: no-repeat;
-    }
-
-    .footer {
-        background-color: #333333;
-        height: auto;
-    }
-
-    .footer_paddings {
-        padding-top: 28px;
-    }
-
-    .footer__copiright_margin {
-        margin-top: 0;
-
-    }
-
-    .footer__copiright_padding {
-        padding-bottom: 40px
-    }
-
-
-
-    .footer__link-column_margin {
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 40px;
-    }
-
-    .footer__link-column {
-        /*width: 320px;*/
-        display: block;
-        width: 81%;
-    }
-
-    .footer__link-font-style {
-        display: block;
-        text-align: center;
-    }
-
-    .footer__drop-down-link-block_face {
-        border: 1px solid #FFFFFF;
-        box-sizing: border-box;
-        border-radius: 25px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        transition: max-height .5s, padding .5s;
-        max-height: 47px;
-        overflow: hidden;
-
-        background-image: url('../img/drop-down-pointer-footer.png');
-        background-repeat: no-repeat;
-        background-position: 95% 21px;
-    }
-
-    .footer__drop-down-button-text {
-        color: white;
-        text-decoration: none;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 30px;
-        margin-left: 30px;
-    }
-
-    ._open-close-footer {
-        max-height: 510px;
-        transition: max-height .5s;
-    }
-
-    /*About Page==========================================================*/
-    .rating__rate-about-page-items-wrapper {
-        display: block;
-        width: 320px;
-        justify-content: center;
-    }
-    
-    .rating__rate-about-page-items-wrapper_margin {
-                margin-left: auto;
-        margin-right: auto;
-    }
-
-    .rating__rate-about-page-item_margin {
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-top: 27px;
-        margin-bottom: 75px;
-    }
-
-    .rating__rate-about-page-item {
-        width: 300px !important;
-        position: relative;
-        box-shadow: 0px 4px 13px rgba(68, 102, 221, 0.25);
-    }
-
-    .rating__rate-about-page-item-image {
-        position: absolute;
-        left: 0;
-        top: 0px;
-        width: 300px;
-        z-index: -1;
-    }
-
-    .rating-about-page_padding {
-        padding-bottom: 0;
-    }
-
-    .about-me__human-photo {
-        float: none;
-        width: 80.31%;
-        display: block;
-    }
-    
-    .about-me__information-paragraphs-wrapper_display-and-margin {
-    /*display: block;*/
-    width: 81.25%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-    .about-me__human-photo_margin {
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 30px;
-    }
-
-    .about-me_padding {
-        padding-top: 30px;
-    }
-
-    .about-me__header_margin {
-        margin-bottom: 30px;
-    }
-
-    .about-me__header-of-paragraph_margin {
-        margin-bottom: 10px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .about-me__paragraph_margin {
-        margin-bottom: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .about-me__header-of-paragraph_text {
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 28px;
-        color: #333333;
-        width: 81.25%;
-    }
-
-    .about-me__paragraph_text {
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 21px;
-        color: #333333;
-        width: 81.25%;
-    }
-
-    /*====================================================================*/
-    /*Error Page==========================================================*/
-    .error-block {
-        width: 93.75%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        padding-bottom: 30px;
-    }
-    .error-block__image {
-        width: 59.06%;
-    }
-    .error-block__image_margin {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .error-block__button_margin {
-        margin-right: 0;
-        margin-bottom: 22px;
-    }
-    /*====================================================================*/
-    /*Reviews Page==========================================================*/
-    .reviews-page {
-        display: block;
-    }
-
-    .reviews-page_padding {
-        padding-top: 30px;
-        padding-bottom: 0;
-    }
-
-    .reviews-page__review-block-wrapper {
-        margin-right: 0;
-    }
-
-    .reviews-page__review-block_face {
-        width: 93.75%;
-        height: 100%;
-        /*height: 335px;*/
-        text-align: center;
-        box-shadow: 0px 4px 10px rgba(81, 44, 189, 0.1);
-        padding-bottom: 20px;
-    }
-
-    .reviews-page__review-block-iamge_margin {
-        margin-right: 0;
-        margin-left: 0;
-        margin-top: 0;
-        float: none;
-    }
-
-    .reviews-page__review-block-image_face {
-        width: 93.75%;
-        height: 93%
-        /*width: 300px;
-        height: 175px;*/
-    }
-
-    .reviews-page__reviews-item-heading_text {
-        font-size: 22px;
-        line-height: 26px;
-    }
-
-    .reviews-page__reviews-item-heading_text_margin {
-        margin-bottom: 15px;
-        padding-top: 15px;
-    }
-
-    .reviews-page__review-block_margin {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .reviews-page__review-block-first_margin {
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    /*=========================================================================*/
-    /*Contact Page=============================================================*/
-    .contact-page {
-        display: block;
-    }
-
-    .contact-page_padding {
-        padding-top: 30px;
-        padding-bottom: 0;
-    }
-
-    .contact-page__contact-block-wrapper {
-        margin-right: 0;
-    }
-
-    .contact-page__contact-form_face {
-        box-shadow: 0px 4px 10px rgba(68, 102, 221, 0.25);
-        width: 93.75%;
-        height: 560px;
-    }
-
-    .contact-page__contact-form_margin {
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .contact-page__form-name-field {
-        width: 81.25%;
-        height: 40px;
-        padding-left: 20px;
-    }
-
-    .contact-page__form-email-field {
-        width: 81.25%;
-        height: 40px;
-        padding-left: 20px;
-    }
-
-    .contact-page__form-email-field_margin {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .contact-page__form-subject-field {
-        width: 81.25%;
-        height: 40px;
-        padding-left: 20px;
-    }
-
-
-    .contact-page__form-message-field {
-        width: 81.25%;
-        height: 124px;
-        padding-left: 20px;
-    }
-
-    .contact-page__form-name-field_margin {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .contact-page__form-label_margin {
-        margin-left: 9.66%;
-        margin-top: 20px;
-    }
-
-    .contact-page__form-subject-field_margin {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .contact-page__form-message-field_margin {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .contact-page__form_padding {
-        padding-top: 20px;
-    }
-
-    .contact-page_visitor-personal-data-set {
-        display: block;
-    }
-
-    .contact-page__form-label-email_margin {
-        margin-top: 20px;
-        margin-left: 9.66%;
-    }
-
-    .contact-page__form-button-first_margin {
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .contact-page__form {
-        text-align: center
-    }
-
-    .contact-page__form-button_face {
-        float: none;
-    }
-
-    .contact-page__form-send-status_text {
-        text-align: center;
-        width: 81.25%;
-    }
-
-    .contact-page__form-send-status_margin {
-        margin-top: 10px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    /*=========================================================================*/
-    /*Tutoriage review=========================================================*/
-    .leave-review__contact-form_face {
-        box-shadow: 0px 4px 10px rgba(68, 102, 221, 0.25);
-        width: 93.75%;
-        height: 701px;
-    }
-
-    .leave-review__contact-form_margin {
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .leave-review__form {
-        text-align: center;
-    }
-
-    .leave-review__form_padding {
-        padding-top: 20px;
-    }
-
-    .leave-review_visitor-personal-data-set {
-        display: block;
-    }
-
-    .leave-review__form-label_margin {
-        margin-left: 9.66%;
-        margin-top: 20px;
-    }
-
-    .leave-review__form-name-field {
-        width: 81.25%;
-        height: 40px;
-        padding-left: 20px;
-    }
-    
-    .leave-review__star-rating-wrapper {
-    margin-left: 14%;
-}
-
-    .leave-review__form-name-field_margin {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .leave-review__form-email-field {
-        width: 81.25%;
-        height: 40px;
-        padding-left: 20px;
-    }
-
-    .leave-review__form-email-field_margin {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .leave-review__form-message-field {
-        width: 81.25%;
-        height: 124px;
-        padding-left: 20px;
-    }
-
-    .leave-review__form-message-field_margin {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .leave-review__form-send-status_text {
-        text-align: center;
-        width: 87.5%;
-    }
-
-    .leave-review__form-send-status_margin {
-        margin-top: 10px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .leave-review__form-label-email_margin {
-        margin-top: 20px;
-        margin-left: 9.66%;
-    }
-
-    .leave-review__form-checkbox-label_face {
-        text-align: left;
-        width: 215px;
-    }
-
-    .leave-review__form-checkbox_margin {
-        margin-left: 9.66%;
-        margin-right: 20px;
-    }
-
-    .leave-review__header_text {
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 28px;
-        text-align: center;
-    }
-
-    .leave-review_padding {
-        padding-bottom: 0;
-    }
-
-    .leave-review__rating {
-        margin-left: -38px;
-    }
-
-    .customer-reviews__header_text {
-        font-size: 24px;
-        line-height: 28px;
-        text-align: center;
-    }
-
-    .customer-reviews__customers-coments-block {
-        width: 93.75%;
-        height: auto;
-        box-shadow: 0px 4px 30px rgba(68, 102, 221, 0.25);
-    }
-
-    .customer-reviews__customers-coments-block_padding-margin {
-        padding-bottom: 30px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .customer-reviews__customer-comment_mergin {
-        margin-top: 17px;
-        margin-left: 20px;
-    }
-
-    .customer-reviews__customer-comment_text {
-        width: 81.25%;
-    }
-
-    .customer-reviews__reviewed {
-        font-size: 13px;
-        line-height: 15px;
-        float: none;
-    }
-
-
-    .customer-reviews__reviewed_margin {
-        margin-left: 20px;
-        margin-right: 1px;
-    }
-
-    .customer-reviews__customer-name {
-        float: left;
-        line-height: 15px;
-        font-size: 13px;
-        font-weight: 500;
-    }
-
-    .customer-reviews__customer-name_margin {
-        margin-left: 20px;
-        margin-right: 15px;
-    }
-
-    .customer-reviews__rate-stars-wrapper_margin {
-        margin-left: 20px;
-        margin-top: 17px;
-    }
-
-    .customer-reviews__number-of-review_margin-padding {
-        margin-right: 20px;
-    }
-
-    .customer-reviews__customer-comment-block_padding {
-        padding-top: 16px;
-        padding-bottom: 15px;
-    }
-
-    .customer-reviews__load-more-button_margin {
-        margin-top: 20px;
-    }
-
-    .customer-reviews__load-more-button_face {
-        width: 68.75%;
-        display: block;
-        border-width: 1px;
-    }
-    
-    
-    
-    
-    
-    
-    
-    .service-highlights__paragraph_margin {
-    margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-}
-
-.service-highlights__header1-of-paragraph_text {
-    font-size: 24px;
-    line-height: 28px;
-    width: 81.25%;
-}
-
-.service-highlights__header2-of-paragraph_text {
-    font-size: 23px;
-    line-height: 27px;
-    width: 81.25%;
-}
-
-.service-highlights__header3-of-paragraph_text {
-    font-size: 22px;
-    line-height: 26px;
-    width: 81.25%;
-}
-
-.service-highlights__header4-of-paragraph_text {
-    font-size: 21px;
-    line-height: 25px;
-    width: 81.25%;
-}
-
-.service-highlights__header5-of-paragraph_text {
+@media (min-width: 320px) and (max-width: 768px) {
+  /*COMMON STYLES=============================*/
+  .row {
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+
+  .menu__logo {
+      width: 70%;
+  }
+  .main-container {
+    font-family: "Roboto";
+    font-weight: 400;
+  }
+
+  .jumbotron__platform-ico-wrapper {
+    text-align: center;
+  }
+  
+  .menu__links_margin {
+    margin-top: 50px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #333333;
+  }
+  
+  .nav-item {
     font-size: 20px;
-    line-height: 23px;
-    width: 81.25%;
-}
-
-.service-highlights__header-of-paragraph_margin {
-    margin-top: 20px;
+    line-height: 21px;
+    color: #333333;
+  }
+  
+  .nav-link_margin {
+    margin-right: auto;
     margin-left: auto;
-        margin-right: auto;
-}
+    margin-bottom: 30px !important;
 
-.service-highlights__paragraph_text {
-    font-weight: normal;
+  }
+  
+  .menu {
+    box-shadow: 0px 5px 15px rgba(33, 51, 101, 0.1);
+    background: #FFFFFF;
+  }
+  
+  .active {
+    color: #12B2E7 !important;
+  }
+  
+  .nav-link:hover {
+    color: rgb(15, 145, 189) !important;
+  }
+  
+  a:hover {
+    text-decoration: none !important;
+    color: rgb(15, 145, 189) !important;
+  }
+  
+  ._like-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #333333;
+  }
+  
+  ._border-blue-line {
+    background-image: linear-gradient(#12b2e7, #12b2e7);
+    background-size: 82px 3px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .padding-bottom-16 {
+    padding-bottom: 16px;
+  }
+  
+  ._margin-bottom-16 {
+    margin-bottom: 16px;
+  }
+  
+  ._margin-bottom-30 {
+    margin-bottom: 30px;
+  }
+  
+  ._margin-top-40 {
+    margin-top: 40px;
+  }
+  
+  ._margin-bottom-40 {
+    margin-bottom: 40px;
+  }
+  
+  ._margin-bottom-52 {
+    margin-bottom: 52px;
+  }
+  
+  ._margin-bottom-25 {
+    margin-bottom: 25px;
+  }
+  
+  ._margin-top-23 {
+    margin-top: 23px;
+  }
+  
+  ._border-blue-line-position-left {
+    background-position: left bottom;
+  }
+  
+  .list-marker_style {
+    width: 38px;
+    height: 36px;
+    margin-right: 30px;
+    border-radius: 50%;
+    line-height: 36px;
+    background-color: #f1f9ff;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #12b2e7;
+    display: inline-block;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  ul {
+    margin-bottom: 0;
+  }
+  
+  ._blue-text {
+    color: #12b2e7;
+  }
+  
+  ._position-top-30 {
+    position: relative;
+    top: -30px;
+  }
+  
+  ._position-top-40 {
+    position: relative;
+    top: 40px;
+  }
+  
+  ._padding-left-0 {
+    padding-left: 15px !important;
+  }
+  
+  ._padding-right-0 {
+    padding-right: 0 !important;
+  }
+  
+  .__download-button {
+    width: 100%;
+    /* max-width: 240px; */
+    height: 60px;
+    background: #12b2e7;
+    border: 3px solid #12b2e7;
+    box-sizing: border-box;
+    border-radius: 50px;
+  }
+  
+  .__download-button > a {
+    font-family: "Roboto";
+    font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    width: 81.25%;
-}
-    
-    .service-highlights__header1-of-paragraph_margin {
-    margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
-}
-    
-.service-highlights__ul-wrapper {
-    width: 81.25%;
-    margin-left: auto;
-        margin-right: auto;
-}
-    
-    .service-highlights__ul-wrapper-first {
-    float: none;
-        width: 81.25%;
-        margin-left: auto;
-        margin-right: auto;
-}
-    
-    .service-highlights__heading_margin {
-    margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
-}
-    
-    .service-highlights__heading {
-    width: 81.25%;
-    font-size: 24px;
-    line-height: 28px;
-}
-    
-    .tutoriage-review__link-block-links-list_style {
-    display: block;
-        
-}
-    
-    .tutoriage-review__link-block-links-list_margin {
-    margin-bottom: 10px;
-        margin-left: auto;
-        margin-right: auto;
-}
-    
-    .tutoriage-review__rating-common-block-item-image {
-    float: none;
-        width: 93.75%;
-}
-    
-    .tutoriage-review__rating-common-block-item {
-    width: 93.75%;
-    height: 100%;
-    box-shadow: 0px 4px 30px rgba(68, 102, 221, 0.25);
     text-align: center;
-}
-    
-    .tutoriage-review__rating-common-block-item-image_margin {
-    margin-top: 0;
-    margin-left: 0;
-}
-    
-    .tutoriage-review_padding {
-    padding-top: 30px;
-}
-    
-    .tutoriage-review__rating-common-block-item_margin-padding {
-    margin-top: 20px;
-    margin-right: auto;
-        margin-left: auto;
+    color: #ffffff;
+  }
+  
+  .__download-button_margin {
     margin-bottom: 30px;
-        padding-bottom: 30px;
-}
-    
-    .tutoriage-review {
-    display: block;
-}
-    
-    .tutoriage-review__link-block {
-    width: 81.25%;
-}
-    
-    .tutoriage-review__link-block_margin {
-                margin-left: auto;
-        margin-right: auto;
-    }
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .download-kodi__paragraph {
+    font-weight: normal;
+    font-size: 18px;
+    color: #555555;
+  }
 
-    /*=========================================================================*/
+  .__app-banners_margin {
+    margin-bottom: 30px;
+  }
+  /*===============================================================*/
+  
+  /* MAIN PAGE==================================================== */
+  .jumbotron__heading {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 50px;
+    color: #333333;
+    width: 95%;
+    text-align: center;
+  }
+  
+  .jumbotron__heading_margin {
+      margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .jumbotron__paragraph {
+    font-size: 18px;
+    line-height: 25px;
+    color: #555555;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .jumbotron__paragraph_margin {
+    margin-bottom: 52px;
+  }
+  
+  .header__jumbotron_margin {
+    margin-top: 111px;
+  }
+
+  .jumbotron_banner {
+      width: 100%;
+
+  }
+  
+  .jumbotron_banner_position {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  
+  .header_padding {
+    padding-bottom: 60px;
+  }
+  
+  .kodi-info_background {
+    background: #222222;
+  }
+  
+  .kodi-info__paragraph {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .kodi-info__padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .kodi-features__item-wrapper > img {
+    width: 70px;
+  }
+  
+  .kodi-features__item-ico_margin {
+    margin-bottom: 30px;
+  }
+  
+  .kodi-features__item_parag_text {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #555555;
+    width: 245px;
+    margin-bottom: 20px;
+  }
+  
+  .kodi-features_padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .kodi-features__heading_margin {
+    margin-bottom: 75px;
+  }
+  
+  .kodi-features_background {
+    background-color: #f1f9ff;
+  }
+  
+  .kodi-android_padding {
+    padding-top: 50px;
+  }
+  
+  .kodi-android__list_margin {
+    margin-top: 41px;
+  }
+  
+  .kodi-android__list-item_text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #555555;
+    width: 495px;
+    display: inline-block;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+  
+  .kodi-android__list-item-wrapper {
+    display: flex;
+  }
+  
+  .table th,
+  .table td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  thead {
+    background: #f1f9ff;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #12b2e7;
+  }
+  
+  tbody {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #555555;
+  }
+  
+  .table tr {
+    border-bottom: 1px solid rgba(160, 224, 245, 0.4);
+  }
+  
+  .kodi-android__table-wrapper_border {
+    border: 1px solid rgba(160, 224, 245, 0.4);
+    border-radius: 8px;
+  }
+  
+  .kodi-android__table-wrapper_margin {
+    margin-top: 77px;
+  }
+  
+  .kodi-ios_padding {
+    padding-top: 119px;
+  }
+  
+  .kodi-ios__ios-img_position {
+    position: relative;
+    top: -30px;
+  }
+  
+  .kodi-ios_padding {
+    padding-top: 100px;
+  }
+  
+  .kodi-ios__list_margin {
+    margin-top: 41px;
+  }
+  
+  .kodi-ios__list-item_text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #555555;
+    width: 595px;
+    display: inline-block;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+  
+  .kodi-ios__list-item-wrapper {
+    display: flex;
+  }
+  
+  .kodi-windows_padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .kodi-windows__list_margin {
+    margin-top: 41px;
+  }
+  
+  .kodi-windows__list-item_text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #555555;
+    width: 595px;
+    display: inline-block;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+  
+  .veepn-download_background {
+    background: #222222;
+  }
+  
+  .veepn-download_padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .veepn-download__heading {
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .veepn-download__heading_margin {
+    margin-bottom: 30px;
+  }
+  
+  .veepn-download__paragraph_text {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    width: 80%;
+  }
+  
+  .veepn-download__paragraph_margin {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  
+  .veepn-download__platform-ico_margin {
+    margin-bottom: 30px;
+  }
+  
+  .footer_padding {
+    padding-top: 28px;
+    padding-bottom: 33px;
+  }
+  
+  .footer_background {
+    background: #000000;
+  }
+  
+  .footer__paragraph_text {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #bdbdbd;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* ============================================================= */
+  
+  /* DOWNLOAD KODI PAGE=========================================== */
+  .download-kodi_padding {
+    padding-top: 102px;
+    padding-bottom: 103px;
+  }
+  
+  .download-kodi_background {
+    background: #F1F9FF;
+  }
+  
+  .download-kodi__padding {
+    padding-top: 40px;
+  }
+  
+  ._position-left-top {
+    left: -70px;
+    top: -30px;
+  }
+  
+  .__download-buttons-group-wrapper_text {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .__download-buttons-group-wrapper_margin {
+    margin-top: 47px;
+  }
+  
+  .__how-to-install_text {
+    font-size: 18px;
+  }
+  
+  .kodi-macos_padding {
+    padding-bottom: 10px;
+  }
+  
+  .kodi-macos__image_position-top {
+    position: relative;
+    top: -57px;
+  }
+  
+  .download-kodi-page-kodi-windows_padding {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  
+  .kodi-windows_position-top {
+    position: relative;
+    top: -70px;
+  }
+  
+  .download-kodi-page-kodi-android_padding {
+    padding-top: 117px;
+  }
+  /* ============================================================= */
+  
+  /* DOWNLOAD KODI PAGE FOR ANDROID=============================== */
+  .jumbotron__paragraph_width {
+    width: 659px;
+  }
+  
+  .download-kodi__paragraph_width {
+    width: 1198px;
+  }
+  
+  .guide-install-android__list-item_text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #555555;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+  
+  .guide-install-android__list_margin {
+    margin-top: 86px;
+  }
+  
+  .guide-install-android_padding {
+    padding-top: 120px;
+    padding-bottom: 127px;
+  }
+  
+  .guide-install-android__line {
+    border: 1px solid rgba(160, 224, 245, 0.4);
+    height: 160px;
+    width: 1px;
+    position: absolute;
+    top: 175px;
+    left: 16px;
+    z-index: -10;
+  }
+  /* ============================================================= */
+  
+  /* DOWNLOAD KODI PAGE FOR IOS=================================== */
+  .jumbotron__download-for-ios-page_position {
+    position: relative;
+    top: -30px;
+    left: -20px;
+  }
+  
+  .jumbotron__download-for-ios-page-paragraph_width {
+    width: 659px;
+  }
+  
+  .kodi-ios-download-page_padding {
+    padding-bottom: 107px;
+    padding-top: 103px;
+  }
+  
+  .kodi-ios-info_margin {
+    margin-bottom: 60px;
+  }
+  
+  .kodi-ios-info__paragraph {
+    font-weight: normal;
+    font-size: 18px;
+    color: #555555;
+  }
+  
+  .kodi-ios-info__paragraph_padding {
+    padding-top: 40px;
+  }
+  
+  .kodi-ios-info_padding {
+    padding-top: 170px;
+    padding-bottom: 114px;
+  }
+  
+  .kodi-features__parag_text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #555555;
+  }
+  
+  .kodi-features-download-page__heading_margin {
+    margin-bottom: 56px;
+  }
+  
+  .kodi-features-download-page__list > li {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #555555;
+    margin-bottom: 18px;
+    display: flex;
+    vertical-align: middle;
+  }
+  
+  .kodi-features-download-page__list > li:before {
+    content: "\00B7";
+    margin-right: 43px;
+    color: #12B2E7;
+    font-size: 50px;
+  }
+  
+  .kodi-ios__parag_text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #555555;
+  }
+  
+  
+  /* ============================================================= */
+  
+  /* DOWNLOAD KODI PAGE FOR WINDOWS=============================== */
+  .kodi-windows-download-page_padding {
+    padding-bottom: 120px;
+    padding-top: 103px;
+  }
+  
+  .kodi-windows__parag_text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #555555;
+  }
+  /* ============================================================= */
+  
+  /* DOWNLOAD KODI PAGE ADDONS==================================== */
+  .kodi-addons-page_position {
+    position: relative;
+    top: -60px;
+    left: -60px;
+  }
+  
+  .best-kodi-addons_padding {
+    padding-top: 105px;
+    padding-bottom: 120px;
+  }
+  
+  .kodi-addons-page__jumbotron_paragraph_width {
+    width: 590px;
+  }
+  
+  .best-kodi-addons__list-tem-name {
+    font-weight: 500;
+    font-size: 22px;
+    /* line-height: 31px; */
+    color: #333333;
+    display: flex;
+    vertical-align: middle;
+  }
+  
+  .best-kodi-addons__list-tem-name:before {
+    content: url(../img/marker.svg);
+    margin-right: 24px;
+    color: #12B2E7;
+  }
+  
+  .best-kodi-addons__list-paragraph {
+    font-size: 18px;
+    color: #555555;
+  }
+  /* ============================================================= */
+  
+  /* FREE VPN FOR KODI APGE======================================= */
+  .free-vpn-page__img_position {
+    position: absolute;
+    top: -170px;
+    left: -50px;
+  }
+  
+  .kodi-free-vpn_background {
+    background: #F1F9FF;
+  }
+  
+  .kodi-free-vpn_padding {
+    padding-top: 102px;
+    padding-bottom: 114px;
+  }
+  
+  .kodi-free-vpn__paragraph {
+    font-weight: normal;
+    font-size: 18px;
+    color: #555555;
+  }
+  
+  .kodi-free-vpn__padding {
+    padding-top: 30px;
+  }
+  
+  .__paragraph-vpn-soft_text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #555555;
+    width: 690px;
+  }
+  
+  .veepn-soft_padding {
+    padding-top: 100px;
+    padding-bottom: 104px;
+  }
+  
+  .veepn-soft__img_position {
+    position: absolute;
+    top: -40px;
+    left: 40px;
+  }
+  
+  .free-vpn-page__header_padding {
+    padding-bottom: 115px;
+  }
+  
+  .hotspot_padding {
+    padding-top: 103px;
+    padding-bottom: 103px;
+  }
+  
+  ._light-gray-background {
+    background: #F1F9FF;
+  }
+  
+  .hotspot__img_position {
+    position: absolute;
+    top: -20px;
+  }
+  
+  ._vpn-soft-padding {
+    padding-top: 103px;
+    padding-bottom: 103px;
+  }
+  
+  .tunnelbear__paragraph_width {
+    width: 692px;
+  }
+  
+  .tunnelbear__img_position {
+    position: absolute;
+    left: 100px;
+    top: -50px;
+  }
+  
+  .hideme__img_position {
+    position: absolute;
+    top: 60px;
+  }
+  /* ============================================================= */
 }
 
 

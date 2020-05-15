@@ -39,6 +39,10 @@ Some dicumentation things:
   justify-content: flex-end;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #333333;
+}
+
 .nav-item {
   font-size: 18px;
   line-height: 21px;
@@ -51,6 +55,7 @@ Some dicumentation things:
 
 .menu {
   box-shadow: 0px 5px 15px rgba(33, 51, 101, 0.1);
+  background: #FFFFFF;
 }
 
 .active {
@@ -62,7 +67,8 @@ Some dicumentation things:
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
+  color: rgb(15, 145, 189) !important;
 }
 
 ._like-heading {
@@ -84,8 +90,32 @@ a:hover {
   padding-bottom: 16px;
 }
 
+._margin-bottom-16 {
+  margin-bottom: 16px;
+}
+
 ._margin-bottom-30 {
   margin-bottom: 30px;
+}
+
+._margin-top-40 {
+  margin-top: 40px;
+}
+
+._margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
+._margin-bottom-52 {
+  margin-bottom: 52px;
+}
+
+._margin-bottom-25 {
+  margin-bottom: 25px;
+}
+
+._margin-top-23 {
+  margin-top: 23px;
 }
 
 ._border-blue-line-position-left {
@@ -111,8 +141,22 @@ li {
   list-style: none;
 }
 
+ul {
+  margin-bottom: 0;
+}
+
 ._blue-text {
   color: #12b2e7;
+}
+
+._position-top-30 {
+  position: relative;
+  top: -30px;
+}
+
+._position-top-40 {
+  position: relative;
+  top: 40px;
 }
 
 ._padding-left-0 {
@@ -144,6 +188,12 @@ li {
 .__download-button_margin {
   margin-bottom: 30px;
 }
+
+.download-kodi__paragraph {
+  font-weight: normal;
+  font-size: 18px;
+  color: #555555;
+}
 /*===============================================================*/
 
 /* MAIN PAGE==================================================== */
@@ -171,16 +221,17 @@ li {
 }
 
 .header__jumbotron_margin {
-  margin-top: 156px;
+  margin-top: 251px;
 }
 
 .jumbotron_banner_position {
   position: relative;
   left: -50px;
+  top: -45px;
 }
 
 .header_padding {
-  padding-bottom: 157px;
+  padding-bottom: 60px;
 }
 
 .kodi-info_background {
@@ -214,7 +265,7 @@ li {
 
 .kodi-features_padding {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 102px;
 }
 
 .kodi-features__heading_margin {
@@ -239,6 +290,8 @@ li {
   color: #555555;
   width: 595px;
   display: inline-block;
+  margin-bottom: auto;
+  margin-top: auto;
 }
 
 .kodi-android__list-item-wrapper {
@@ -249,10 +302,6 @@ li {
 .table td {
   padding-top: 17px;
   padding-bottom: 17px;
-}
-
-.table thead th {
-  /* padding-left: 102px !important; */
 }
 
 thead {
@@ -307,6 +356,8 @@ tbody {
   color: #555555;
   width: 595px;
   display: inline-block;
+  margin-bottom: auto;
+  margin-top: auto;
 }
 
 .kodi-ios__list-item-wrapper {
@@ -328,6 +379,8 @@ tbody {
   color: #555555;
   width: 595px;
   display: inline-block;
+  margin-bottom: auto;
+  margin-top: auto;
 }
 
 .veepn-download_background {
@@ -381,5 +434,304 @@ tbody {
   line-height: 16px;
   text-align: center;
   color: #bdbdbd;
+}
+/* ============================================================= */
+
+/* DOWNLOAD KODI PAGE=========================================== */
+.download-kodi_padding {
+  padding-top: 102px;
+  padding-bottom: 103px;
+}
+
+.download-kodi_background {
+  background: #F1F9FF;
+}
+
+.download-kodi__padding {
+  padding-top: 40px;
+}
+
+._position-left-top {
+  left: -70px;
+  top: -30px;
+}
+
+.__download-buttons-group-wrapper_text {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.__download-buttons-group-wrapper_margin {
+  margin-top: 47px;
+}
+
+.__how-to-install_text {
+  font-size: 18px;
+}
+
+.kodi-macos_padding {
+  padding-bottom: 10px;
+}
+
+.kodi-macos__image_position-top {
+  position: relative;
+  top: -57px;
+}
+
+.download-kodi-page-kodi-windows_padding {
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+
+.kodi-windows_position-top {
+  position: relative;
+  top: -70px;
+}
+
+.download-kodi-page-kodi-android_padding {
+  padding-top: 117px;
+}
+/* ============================================================= */
+
+/* DOWNLOAD KODI PAGE FOR ANDROID=============================== */
+.jumbotron__paragraph_width {
+  width: 659px;
+}
+
+.download-kodi__paragraph_width {
+  width: 1198px;
+}
+
+.guide-install-android__list-item_text {
+  font-size: 18px;
+  line-height: 25px;
+  color: #555555;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.guide-install-android__list_margin {
+  margin-top: 86px;
+}
+
+.guide-install-android_padding {
+  padding-top: 120px;
+  padding-bottom: 127px;
+}
+
+.guide-install-android__line {
+  border: 1px solid rgba(160, 224, 245, 0.4);
+  height: 160px;
+  width: 1px;
+  position: absolute;
+  top: 175px;
+  left: 16px;
+  z-index: -10;
+}
+/* ============================================================= */
+
+/* DOWNLOAD KODI PAGE FOR IOS=================================== */
+.jumbotron__download-for-ios-page_position {
+  position: relative;
+  top: -30px;
+  left: -20px;
+}
+
+.jumbotron__download-for-ios-page-paragraph_width {
+  width: 659px;
+}
+
+.kodi-ios-download-page_padding {
+  padding-bottom: 107px;
+  padding-top: 103px;
+}
+
+.kodi-ios-info_margin {
+  margin-bottom: 60px;
+}
+
+.kodi-ios-info__paragraph {
+  font-weight: normal;
+  font-size: 18px;
+  color: #555555;
+}
+
+.kodi-ios-info__paragraph_padding {
+  padding-top: 40px;
+}
+
+.kodi-ios-info_padding {
+  padding-top: 170px;
+  padding-bottom: 114px;
+}
+
+.kodi-features__parag_text {
+  font-size: 18px;
+  line-height: 25px;
+  color: #555555;
+}
+
+.kodi-features-download-page__heading_margin {
+  margin-bottom: 56px;
+}
+
+.kodi-features-download-page__list > li {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #555555;
+  margin-bottom: 18px;
+  display: flex;
+  vertical-align: middle;
+}
+
+.kodi-features-download-page__list > li:before {
+  content: "\00B7";
+  margin-right: 43px;
+  color: #12B2E7;
+  font-size: 50px;
+}
+
+.kodi-ios__parag_text {
+  font-size: 18px;
+  line-height: 25px;
+  color: #555555;
+}
+
+
+/* ============================================================= */
+
+/* DOWNLOAD KODI PAGE FOR WINDOWS=============================== */
+.kodi-windows-download-page_padding {
+  padding-bottom: 120px;
+  padding-top: 103px;
+}
+
+.kodi-windows__parag_text {
+  font-size: 18px;
+  line-height: 25px;
+  color: #555555;
+}
+/* ============================================================= */
+
+/* DOWNLOAD KODI PAGE ADDONS==================================== */
+.kodi-addons-page_position {
+  position: relative;
+  top: -60px;
+  left: -60px;
+}
+
+.best-kodi-addons_padding {
+  padding-top: 105px;
+  padding-bottom: 120px;
+}
+
+.kodi-addons-page__jumbotron_paragraph_width {
+  width: 590px;
+}
+
+.best-kodi-addons__list-tem-name {
+  font-weight: 500;
+  font-size: 22px;
+  /* line-height: 31px; */
+  color: #333333;
+  display: flex;
+  vertical-align: middle;
+}
+
+.best-kodi-addons__list-tem-name:before {
+  content: url(../img/marker.svg);
+  margin-right: 24px;
+  color: #12B2E7;
+}
+
+.best-kodi-addons__list-paragraph {
+  font-size: 18px;
+  color: #555555;
+}
+/* ============================================================= */
+
+/* FREE VPN FOR KODI APGE======================================= */
+.free-vpn-page__img_position {
+  position: absolute;
+  top: -170px;
+  left: -50px;
+}
+
+.kodi-free-vpn_background {
+  background: #F1F9FF;
+}
+
+.kodi-free-vpn_padding {
+  padding-top: 102px;
+  padding-bottom: 114px;
+}
+
+.kodi-free-vpn__paragraph {
+  font-weight: normal;
+  font-size: 18px;
+  color: #555555;
+}
+
+.kodi-free-vpn__padding {
+  padding-top: 30px;
+}
+
+.__paragraph-vpn-soft_text {
+  font-size: 18px;
+  line-height: 25px;
+  color: #555555;
+  width: 690px;
+}
+
+.veepn-soft_padding {
+  padding-top: 100px;
+  padding-bottom: 104px;
+}
+
+.veepn-soft__img_position {
+  position: absolute;
+  top: -40px;
+  left: 40px;
+}
+
+.free-vpn-page__header_padding {
+  padding-bottom: 115px;
+}
+
+.hotspot_padding {
+  padding-top: 103px;
+  padding-bottom: 103px;
+}
+
+._light-gray-background {
+  background: #F1F9FF;
+}
+
+.hotspot__img_position {
+  position: absolute;
+  top: -20px;
+}
+
+._vpn-soft-padding {
+  padding-top: 103px;
+  padding-bottom: 103px;
+}
+
+.tunnelbear__paragraph_width {
+  width: 692px;
+}
+
+.tunnelbear__img_position {
+  position: absolute;
+  left: 100px;
+  top: -50px;
+}
+
+.hideme__img_position {
+  position: absolute;
+  top: 60px;
 }
 /* ============================================================= */

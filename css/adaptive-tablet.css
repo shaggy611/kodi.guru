@@ -2,8 +2,8 @@
 
     /*COMMON STYLES=============================*/
   .row {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 
 .menu__logo {
@@ -15,7 +15,9 @@
 }
 
 .jumbotron__platform-ico-wrapper {
-  text-align: center;
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu__links_margin {
@@ -65,49 +67,6 @@ a:hover {
   color: #333333;
 }
 
-._border-blue-line {
-  background-image: linear-gradient(#12b2e7, #12b2e7);
-  background-size: 82px 3px;
-  background-position: center bottom;
-  background-repeat: no-repeat;
-}
-
-.padding-bottom-16 {
-  padding-bottom: 16px;
-}
-
-._margin-bottom-16 {
-  margin-bottom: 16px;
-}
-
-._margin-bottom-30 {
-  margin-bottom: 30px;
-}
-
-._margin-top-40 {
-  margin-top: 40px;
-}
-
-._margin-bottom-40 {
-  margin-bottom: 40px;
-}
-
-._margin-bottom-52 {
-  margin-bottom: 52px;
-}
-
-._margin-bottom-25 {
-  margin-bottom: 25px;
-}
-
-._margin-top-23 {
-  margin-top: 23px;
-}
-
-._border-blue-line-position-left {
-  background-position: left bottom;
-}
-
 .list-marker_style {
   width: 38px;
   height: 36px;
@@ -138,11 +97,6 @@ ul {
 ._position-top-30 {
   position: relative;
   top: -30px;
-}
-
-._position-top-40 {
-  position: relative;
-  top: 40px;
 }
 
 ._padding-left-0 {
@@ -234,7 +188,7 @@ ul {
 }
 
 .header_padding {
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 
 .kodi-info_background {
@@ -345,9 +299,11 @@ tbody {
   padding-top: 119px;
 }
 
-.kodi-ios__ios-img_position {
+.kodi-ios__ios-img {
   position: relative;
   top: -30px;
+  display: block;
+  max-width: 500px;
 }
 
 .kodi-ios_padding {
@@ -463,8 +419,8 @@ tbody {
 }
 
 ._position-left-top {
-  left: -70px;
-  top: -30px;
+  left: -40px;
+  top: 20px;
 }
 
 .__download-buttons-group-wrapper_text {
@@ -484,9 +440,9 @@ tbody {
   padding-bottom: 10px;
 }
 
-.kodi-macos__image_position-top {
+.kodi-macos__image_face {
   position: relative;
-  top: -57px;
+  top: 30px;
 }
 
 .download-kodi-page-kodi-windows_padding {
@@ -494,9 +450,9 @@ tbody {
   padding-bottom: 10px;
 }
 
-.kodi-windows_position-top {
+.kodi-windows_face {
   position: relative;
-  top: -70px;
+  top: -20px;
 }
 
 .download-kodi-page-kodi-android_padding {
@@ -506,11 +462,11 @@ tbody {
 
 /* DOWNLOAD KODI PAGE FOR ANDROID=============================== */
 .jumbotron__paragraph_width {
-  width: 659px;
+  width: 98%;
 }
 
-.download-kodi__paragraph_width {
-  width: 1198px;
+.android-download-page__jumbotron_banner {
+  max-width: 400px;
 }
 
 .guide-install-android__list-item_text {
@@ -540,14 +496,16 @@ tbody {
   top: 175px;
   left: 16px;
   z-index: -10;
+  height: 200px;
 }
 /* ============================================================= */
 
 /* DOWNLOAD KODI PAGE FOR IOS=================================== */
-.jumbotron__download-for-ios-page_position {
+.jumbotron__download-for-ios-page {
   position: relative;
-  top: -30px;
+  top: 20px;
   left: -20px;
+  max-width: 500px;
 }
 
 .jumbotron__download-for-ios-page-paragraph_width {
@@ -574,7 +532,7 @@ tbody {
 }
 
 .kodi-ios-info_padding {
-  padding-top: 170px;
+  padding-top: 120px;
   padding-bottom: 114px;
 }
 
@@ -616,8 +574,8 @@ tbody {
 
 /* DOWNLOAD KODI PAGE FOR WINDOWS=============================== */
 .kodi-windows-download-page_padding {
-  padding-bottom: 120px;
-  padding-top: 103px;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 .kodi-windows__parag_text {
@@ -625,22 +583,35 @@ tbody {
   line-height: 25px;
   color: #555555;
 }
+
+.download-for-windows-page__jumbo-banner {
+  position: relative;
+  top: 30px;
+  max-width: 420px;
+}
+
+.download-for-windows-page__windows-download-img {
+  position: relative;
+  top: -10px;
+  max-width: 420px;
+}
 /* ============================================================= */
 
 /* DOWNLOAD KODI PAGE ADDONS==================================== */
-.kodi-addons-page_position {
+.kodi-addons-page_jumbo-banner {
   position: relative;
-  top: -60px;
-  left: -60px;
+  top: 30px;
+  left: 0;
+  max-width: 450px;
 }
 
 .best-kodi-addons_padding {
-  padding-top: 105px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .kodi-addons-page__jumbotron_paragraph_width {
-  width: 590px;
+  width: 81%;
 }
 
 .best-kodi-addons__list-tem-name {
@@ -662,13 +633,18 @@ tbody {
   font-size: 18px;
   color: #555555;
 }
+
+.addons-page__veepn-download-heading {
+  width: 80%;
+}
 /* ============================================================= */
 
 /* FREE VPN FOR KODI APGE======================================= */
 .free-vpn-page__img_position {
-  position: absolute;
-  top: -170px;
-  left: -50px;
+  position: relative;
+  top: 30px;
+  left: 0;
+  max-width: 400px;
 }
 
 .kodi-free-vpn_background {
@@ -676,8 +652,8 @@ tbody {
 }
 
 .kodi-free-vpn_padding {
-  padding-top: 102px;
-  padding-bottom: 114px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .kodi-free-vpn__paragraph {
@@ -694,59 +670,137 @@ tbody {
   font-size: 18px;
   line-height: 25px;
   color: #555555;
-  width: 690px;
+  width: 98%;
 }
 
 .veepn-soft_padding {
-  padding-top: 100px;
-  padding-bottom: 104px;
+  padding-top: 60px;
+  padding-bottom: 80px;
 }
 
 .veepn-soft__img_position {
-  position: absolute;
-  top: -40px;
+  position: relative;
+  top: -10px;
   left: 40px;
+  max-width: 400px;
 }
 
 .free-vpn-page__header_padding {
-  padding-bottom: 115px;
+  padding-bottom: 80px;
 }
 
 .hotspot_padding {
-  padding-top: 103px;
-  padding-bottom: 103px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 ._light-gray-background {
   background: #F1F9FF;
 }
 
-.hotspot__img_position {
-  position: absolute;
+.hotspot__img {
+  position: relative;
   top: -20px;
+  max-width: 400px;
 }
 
 ._vpn-soft-padding {
-  padding-top: 103px;
-  padding-bottom: 103px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .tunnelbear__paragraph_width {
-  width: 692px;
+  width: 98%;
 }
 
-.tunnelbear__img_position {
-  position: absolute;
-  left: 100px;
-  top: -50px;
+.tunnelbear__img {
+  position: relative;
+  left: 0;
+  top: -10px;
+  max-width: 400px;
 }
 
-.hideme__img_position {
-  position: absolute;
-  top: 60px;
+.hideme__img {
+  position: relative;
+  top: -10px;
+  max-width: 400px;
 }
 /* ============================================================= */ 
-
+  /* MODAL BANNER================================================= */
+  .modal-dialog {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .modal-body {
+    padding: 0;
+    height: auto;
+    z-index: 2;
+  }
+  
+  .modal__veepn-logo-img {
+    margin-bottom: 15px !important;
+  }
+  
+  .modal__heading {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .modal__text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    color: #555555;
+  }
+  
+  .modal__discount {
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 59px;
+    color: #2A4BBB;
+  }
+  
+  .modal__download-button {
+    width: 290px;
+    height: 68px;
+    background: #FF5B5B;
+    border-radius: 60px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .modal__download-button > a {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .modal__info_wrapper {
+    margin-top: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .modal__close-button {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .modal__veepn-banner {
+    position: relative;
+    top: 0;
+    left: 45px;
+    z-index: -1;
+  }
+  
+  /* ============================================================= */
 }
 
 @media (min-width: 992px) and (max-width: 1025px) {
@@ -770,6 +824,62 @@ tbody {
       .jumbotron__paragraph {
           text-align: left;
           width: 100%;
+      }
+
+      .header__jumbotron_margin {
+        margin-top: 190px !important;
+      }
+
+      .addons-page__veepn-download-heading {
+        width: 60%;
+      }
+
+      .free-vpn-page__img_position {
+        position: relative;
+        top: -60px;
+        left: 0;
+        max-width: 400px;
+      }
+
+      .hotspot__img {
+        max-width: 80%;
+        top: 20px;
+      }
+
+      .veepn-soft__img_position {
+        position: relative;
+        top: 40px;
+        max-width: 80%;
+      }
+
+      .tunnelbear__img {
+        top: 10px;
+        max-width: 80%;
+      }
+
+      .hideme__img {
+        position: relative;
+        top: 20px;
+        max-width: 80%;
+      }
+      
+      .modal-dialog {
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .modal__veepn-banner {
+        position: absolute;
+        top: 40px;
+        z-index: -1;
+        left: 45px;
+      }
+
+      .modal-body {
+        padding: 0;
+        height: 470px !important;
+        z-index: 2;
       }
 }
 

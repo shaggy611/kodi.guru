@@ -94,6 +94,10 @@ a:hover {
   margin-bottom: 16px;
 }
 
+._margin-bottom-23 {
+  margin-bottom: 23px;
+}
+
 ._margin-bottom-30 {
   margin-bottom: 30px;
 }
@@ -135,6 +139,7 @@ a:hover {
   font-size: 18px;
   color: #12b2e7;
   display: inline-block;
+  padding-left: 5px;
 }
 
 li {
@@ -146,17 +151,8 @@ ul {
 }
 
 ._blue-text {
-  color: #12b2e7;
-}
-
-._position-top-30 {
-  position: relative;
-  top: -30px;
-}
-
-._position-top-40 {
-  position: relative;
-  top: 40px;
+  color: #12b2e7 !important;
+  font-weight: 500;
 }
 
 ._padding-left-0 {
@@ -194,6 +190,15 @@ ul {
   font-size: 18px;
   color: #555555;
 }
+
+._light-black-text {
+  color: #555555;
+}
+
+._disable-border {
+  border-bottom: none !important;
+}
+
 /*===============================================================*/
 
 /* MAIN PAGE==================================================== */
@@ -221,7 +226,7 @@ ul {
 }
 
 .header__jumbotron_margin {
-  margin-top: 251px;
+  margin-top: 230px;
 }
 
 .jumbotron_banner_position {
@@ -264,8 +269,8 @@ ul {
 }
 
 .kodi-features_padding {
-  padding-top: 120px;
-  padding-bottom: 102px;
+  padding-top: 116px;
+  padding-bottom: 120px;
 }
 
 .kodi-features__heading_margin {
@@ -288,7 +293,7 @@ ul {
   font-size: 18px;
   line-height: 25px;
   color: #555555;
-  width: 595px;
+  width: 607px;
   display: inline-block;
   margin-bottom: auto;
   margin-top: auto;
@@ -337,7 +342,8 @@ tbody {
   padding-top: 119px;
 }
 
-.kodi-ios__ios-img_position {
+.kodi-ios__ios-img {
+  max-width: 387px;
   position: relative;
   top: -30px;
 }
@@ -467,15 +473,17 @@ tbody {
 
 .__how-to-install_text {
   font-size: 18px;
+  font-weight: 400 !important;
 }
 
 .kodi-macos_padding {
   padding-bottom: 10px;
 }
 
-.kodi-macos__image_position-top {
+.kodi-macos__image_face {
   position: relative;
   top: -57px;
+  max-width: 390px;
 }
 
 .download-kodi-page-kodi-windows_padding {
@@ -483,23 +491,33 @@ tbody {
   padding-bottom: 10px;
 }
 
-.kodi-windows_position-top {
+.kodi-windows_face {
   position: relative;
   top: -70px;
+  max-width: 488px;
 }
 
 .download-kodi-page-kodi-android_padding {
   padding-top: 117px;
 }
+
+.download-kodi__android-img {
+  max-width: 488px;
+}
 /* ============================================================= */
 
 /* DOWNLOAD KODI PAGE FOR ANDROID=============================== */
 .jumbotron__paragraph_width {
-  width: 659px;
+  /* width: 659px; */
+  width: 98%;
+}
+
+.android-download-page__jumbotron_banner {
+  max-width: 556px;
 }
 
 .download-kodi__paragraph_width {
-  width: 1198px;
+  /* width: 1198px; */
 }
 
 .guide-install-android__list-item_text {
@@ -530,10 +548,14 @@ tbody {
   left: 16px;
   z-index: -10;
 }
+
+.android-download-page__veepn-download-paragraph_text {
+  width: 70%;
+}
 /* ============================================================= */
 
 /* DOWNLOAD KODI PAGE FOR IOS=================================== */
-.jumbotron__download-for-ios-page_position {
+.jumbotron__download-for-ios-page {
   position: relative;
   top: -30px;
   left: -20px;
@@ -589,9 +611,9 @@ tbody {
 
 .kodi-features-download-page__list > li:before {
   content: "\00B7";
-  margin-right: 43px;
+  margin-right: 35px;
   color: #12B2E7;
-  font-size: 50px;
+  font-size: 65px;
 }
 
 .kodi-ios__parag_text {
@@ -600,6 +622,9 @@ tbody {
   color: #555555;
 }
 
+.ios-download-page__veepn-download-paragraph_text {
+  width: 67%;
+}
 
 /* ============================================================= */
 
@@ -614,13 +639,26 @@ tbody {
   line-height: 25px;
   color: #555555;
 }
+
+.download-for-windows-page__jumbo-banner {
+  position: relative;
+  top: -30px;
+  max-width: 538px;
+}
+
+.download-for-windows-page__windows-download-img {
+  position: relative;
+  top: 40px;
+  max-width: 488px;
+}
 /* ============================================================= */
 
 /* DOWNLOAD KODI PAGE ADDONS==================================== */
-.kodi-addons-page_position {
+.kodi-addons-page_jumbo-banner {
   position: relative;
   top: -60px;
-  left: -60px;
+  left: -50px;
+  max-width: 559px;
 }
 
 .best-kodi-addons_padding {
@@ -629,7 +667,7 @@ tbody {
 }
 
 .kodi-addons-page__jumbotron_paragraph_width {
-  width: 590px;
+  width: 81%;
 }
 
 .best-kodi-addons__list-tem-name {
@@ -658,6 +696,7 @@ tbody {
   position: absolute;
   top: -170px;
   left: -50px;
+  max-width: 615px;
 }
 
 .kodi-free-vpn_background {
@@ -683,7 +722,7 @@ tbody {
   font-size: 18px;
   line-height: 25px;
   color: #555555;
-  width: 690px;
+  width: 100%;
 }
 
 .veepn-soft_padding {
@@ -695,6 +734,7 @@ tbody {
   position: absolute;
   top: -40px;
   left: 40px;
+  max-width: 486px;
 }
 
 .free-vpn-page__header_padding {
@@ -710,9 +750,10 @@ tbody {
   background: #F1F9FF;
 }
 
-.hotspot__img_position {
+.hotspot__img {
   position: absolute;
   top: -20px;
+  max-width: 392px;
 }
 
 ._vpn-soft-padding {
@@ -721,17 +762,89 @@ tbody {
 }
 
 .tunnelbear__paragraph_width {
-  width: 692px;
+  width: 99%;
 }
 
-.tunnelbear__img_position {
+.tunnelbear__img {
   position: absolute;
   left: 100px;
   top: -50px;
+  max-width: 365px;
 }
 
-.hideme__img_position {
+.hideme__img {
   position: absolute;
   top: 60px;
+  max-width: 375px;
 }
+/* ============================================================= */
+
+/* MODAL BANNER================================================= */
+.modal-dialog {
+  max-width: 1176px;
+}
+
+.modal-body {
+  padding: 0;
+  height: 821px;
+  z-index: 2;
+}
+
+.modal__veepn-logo-img {
+  
+}
+
+.modal__heading {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 63px;
+  color: #333333;
+}
+
+.modal__text {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: #555555;
+}
+
+.modal__discount {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 79px;
+  color: #2A4BBB;
+}
+
+.modal__download-button {
+  width: 389px;
+  height: 88px;
+  background: #FF5B5B;
+  border-radius: 60px;
+  border: none;
+}
+
+.modal__download-button > a {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.modal__info_wrapper {
+  margin-top: 149px;
+  margin-left: 70px;
+}
+
+.modal__close-button {
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+.modal__veepn-banner {
+  position: absolute;
+  top: 39px;
+  z-index: -1;
+}
+
 /* ============================================================= */

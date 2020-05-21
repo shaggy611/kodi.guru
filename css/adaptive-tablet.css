@@ -72,7 +72,8 @@ color: #333333;
 width: 38px;
 height: 36px;
 margin-right: 30px;
-border-radius: 50%;
+-webkit-border-radius: 50%;
+        border-radius: 50%;
 line-height: 36px;
 background-color: #f1f9ff;
 vertical-align: middle;
@@ -116,7 +117,8 @@ background: #12b2e7;
 border: 3px solid #12b2e7;
 -webkit-box-sizing: border-box;
         box-sizing: border-box;
-border-radius: 50px;
+-webkit-border-radius: 50px;
+        border-radius: 50px;
 }
 
 .__download-button > a {
@@ -143,6 +145,7 @@ color: #555555;
 .__app-banners_margin {
 margin-bottom: 30px;
 }
+
 /*===============================================================*/
 
 /* MAIN PAGE==================================================== */
@@ -260,6 +263,7 @@ margin-top: auto;
 .kodi-android__list-item-wrapper {
 display: -webkit-box;
 display: -ms-flexbox;
+display: -webkit-flex;
 display: flex;
 }
 
@@ -271,7 +275,8 @@ padding-bottom: 15px;
 
 thead {
 background: #f1f9ff;
-border-radius: 10px;
+-webkit-border-radius: 10px;
+        border-radius: 10px;
 font-weight: 500;
 font-size: 20px;
 line-height: 28px;
@@ -291,7 +296,8 @@ border-bottom: 1px solid rgba(160, 224, 245, 0.4);
 
 .kodi-android__table-wrapper_border {
 border: 1px solid rgba(160, 224, 245, 0.4);
-border-radius: 8px;
+-webkit-border-radius: 8px;
+        border-radius: 8px;
 }
 
 .kodi-android__table-wrapper_margin {
@@ -330,6 +336,7 @@ margin-top: auto;
 .kodi-ios__list-item-wrapper {
 display: -webkit-box;
 display: -ms-flexbox;
+display: -webkit-flex;
 display: flex;
 }
 
@@ -559,6 +566,7 @@ color: #555555;
 margin-bottom: 18px;
 display: -webkit-box;
 display: -ms-flexbox;
+display: -webkit-flex;
 display: flex;
 vertical-align: middle;
 }
@@ -628,6 +636,7 @@ font-size: 22px;
 color: #333333;
 display: -webkit-box;
 display: -ms-flexbox;
+display: -webkit-flex;
 display: flex;
 vertical-align: middle;
 }
@@ -683,14 +692,14 @@ width: 98%;
 }
 
 .veepn-soft_padding {
-padding-top: 60px;
+padding-top: 80px;
 padding-bottom: 80px;
 }
 
 .veepn-soft__img_position {
 position: relative;
-top: -10px;
-left: 40px;
+top: -28px;
+left: 1px;
 max-width: 400px;
 }
 
@@ -709,13 +718,17 @@ background: #F1F9FF;
 
 .hotspot__img {
 position: relative;
-top: -20px;
+top: -50px;
 max-width: 400px;
 }
 
 ._vpn-soft-padding {
-padding-top: 80px;
+padding-top: 120px;
 padding-bottom: 80px;
+}
+
+.tunnelbear {
+  padding-top: 100px !important;
 }
 
 .tunnelbear__paragraph_width {
@@ -731,8 +744,12 @@ max-width: 400px;
 
 .hideme__img {
 position: relative;
-top: -10px;
+top: -45px;
 max-width: 400px;
+}
+
+.free-vpn-page__header-jumbotron_margin {
+  margin-top: 60px !important;
 }
 /* ============================================================= */ 
 /* MODAL BANNER================================================= */
@@ -778,17 +795,11 @@ max-width: 400px;
   width: 290px;
   height: 68px;
   background: #FF5B5B;
-  border-radius: 60px;
+  -webkit-border-radius: 60px;
+          border-radius: 60px;
   border: none;
   margin-bottom: 20px;
-}
-
-.modal__download-button > a {
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 33px;
-  text-align: center;
-  color: #FFFFFF;
+  line-height: 55px;
 }
 
 .modal__info_wrapper {
@@ -799,7 +810,7 @@ max-width: 400px;
 
 .modal__close-button {
   margin-top: 20px;
-  margin-right: 10px;
+  margin-right: -10px;
 }
 
 .modal__veepn-banner {
@@ -812,7 +823,7 @@ max-width: 400px;
 /* ============================================================= */
 }
 
-@media (min-width: 992px) and (max-width: 1025px) {
+@media (min-width: 992px) and (max-width: 1024px) {
   .nav-item {
       font-size: 17px;
   }
@@ -880,6 +891,11 @@ max-width: 400px;
     .modal__info_wrapper {
       margin-top: 20% !important;
     }
+
+    .modal__close-button {
+      margin-top: 20px;
+      margin-right: -10px !important;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1500px) {
@@ -929,17 +945,11 @@ max-width: 400px;
     width: 290px;
     height: 68px;
     background: #FF5B5B;
-    border-radius: 60px;
+    -webkit-border-radius: 60px;
+            border-radius: 60px;
     border: none;
     margin-bottom: 20px;
-  }
-  
-  .modal__download-button > a {
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 33px;
-    text-align: center;
-    color: #FFFFFF;
+    line-height: 55px;
   }
   
   .modal__info_wrapper {
@@ -963,7 +973,6 @@ max-width: 400px;
   
   /* ============================================================= */
 }
-
 
 
 

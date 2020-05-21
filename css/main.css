@@ -176,15 +176,13 @@ ul {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 50px;
-}
-
-.__download-button > a {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 40px;
   text-align: center;
   color: #ffffff;
+  outline: none;
 }
 
 .__download-button_margin {
@@ -203,6 +201,14 @@ ul {
 
 ._disable-border {
   border-bottom: none !important;
+}
+/* Disable browser border over links buttons etc */
+a:active, a:focus {
+  outline: 0!important;
+  outline-color: transparent!important;
+  outline-width: 0!important;
+  outline-style: none!important;
+  box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
 }
 
 /*===============================================================*/
@@ -834,14 +840,15 @@ tbody {
   background: #FF5B5B;
   border-radius: 60px;
   border: none;
-}
-
-.modal__download-button > a {
   font-weight: 500;
   font-size: 28px;
-  line-height: 33px;
+  line-height: 75px;
   text-align: center;
   color: #FFFFFF;
+}
+
+.modal__download-button:hover {
+  color: rgb(255, 195, 195) !important;
 }
 
 .modal__info_wrapper {

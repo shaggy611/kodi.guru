@@ -1,18 +1,17 @@
-
 @media (min-width: 320px) and (max-width: 768px) {
   /*COMMON STYLES=============================*/
 
   .row {
-      margin-left: 20px;
-      margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .menu__logo {
-      width: 60px;
-      image-rendering: crisp-edges;
-      image-rendering: -webkit-optimize-contrast;
-      image-rendering: -o-crisp-edges;
-      image-rendering: -moz-crisp-edges;
+    width: 60px;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -moz-crisp-edges;
   }
   .main-container {
     font-family: "Roboto";
@@ -22,47 +21,46 @@
   .jumbotron__platform-ico-wrapper {
     text-align: center;
   }
-  
+
   .menu__links_margin {
     margin-top: 12px;
   }
-  
+
   .navbar-light .navbar-nav .nav-link {
     color: #333333;
   }
-  
+
   .nav-item {
     font-size: 20px;
     line-height: 21px;
     color: #333333;
   }
-  
+
   .nav-link_margin {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 30px !important;
-
   }
-  
+
   .menu {
     -webkit-box-shadow: 0px 5px 15px rgba(33, 51, 101, 0.1);
-            box-shadow: 0px 5px 15px rgba(33, 51, 101, 0.1);
-    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(33, 51, 101, 0.1);
+    background: #ffffff;
   }
-  
+
   .active {
-    color: #12B2E7 !important;
+    color: #12b2e7 !important;
   }
-  
+
   .nav-link:hover {
     color: rgb(15, 145, 189) !important;
   }
-  
+
   a:hover {
     text-decoration: none !important;
     color: rgb(15, 145, 189) !important;
   }
-  
+
   ._like-heading {
     font-style: normal;
     font-weight: 500;
@@ -76,7 +74,7 @@
     height: 36px;
     margin-right: 20px;
     -webkit-border-radius: 50%;
-            border-radius: 50%;
+    border-radius: 50%;
     line-height: 36px;
     background-color: #f1f9ff;
     vertical-align: middle;
@@ -86,19 +84,19 @@
     color: #12b2e7;
     display: inline-block;
   }
-  
+
   li {
     list-style: none;
   }
-  
+
   ul {
     margin-bottom: 0;
   }
-  
+
   ._blue-text {
     color: #12b2e7;
   }
-  
+
   ._position-top-30 {
     position: relative;
     top: -30px;
@@ -107,11 +105,11 @@
   ._padding-left-0 {
     padding-left: 15px !important;
   }
-  
+
   ._padding-right-0 {
     padding-right: 0 !important;
   }
-  
+
   .__download-button {
     width: 100%;
     /* max-width: 240px; */
@@ -119,11 +117,11 @@
     background: #12b2e7;
     border: 3px solid #12b2e7;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     -webkit-border-radius: 50px;
-            border-radius: 50px;
+    border-radius: 50px;
   }
-  
+
   .__download-button > a {
     font-family: "Roboto";
     font-weight: 500;
@@ -132,14 +130,14 @@
     text-align: center;
     color: #ffffff;
   }
-  
+
   .__download-button_margin {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     display: block;
   }
-  
+
   .download-kodi__paragraph {
     font-weight: normal;
     font-size: 18px;
@@ -150,7 +148,7 @@
     margin-bottom: 30px;
   }
   /*===============================================================*/
-  
+
   /* MAIN PAGE==================================================== */
   .jumbotron__heading {
     font-weight: 500;
@@ -162,12 +160,12 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .jumbotron__heading_margin {
-      margin-top: 40px;
+    margin-top: 40px;
     margin-bottom: 20px;
   }
-  
+
   .jumbotron__paragraph {
     font-size: 18px;
     line-height: 25px;
@@ -177,34 +175,33 @@
     margin-right: auto;
     text-align: center;
   }
-  
+
   .jumbotron__paragraph_margin {
     margin-bottom: 52px;
   }
-  
+
   .header__jumbotron_margin {
     margin-top: 111px;
   }
 
   .jumbotron_banner {
-      width: 100%;
-
+    width: 100%;
   }
-  
+
   .jumbotron_banner_position {
     position: relative;
     left: 0;
     top: 0;
   }
-  
+
   .header_padding {
     padding-bottom: 80px;
   }
-  
+
   .kodi-info_background {
     background: #222222;
   }
-  
+
   .kodi-info__paragraph {
     font-weight: normal;
     font-size: 18px;
@@ -212,7 +209,7 @@
     text-align: center;
     color: #ffffff;
   }
-  
+
   .kodi-info__padding {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -221,11 +218,11 @@
   .kodi-features__item-wrapper > img {
     width: 70px;
   }
-  
+
   .kodi-features__item-ico_margin {
     margin-bottom: 30px;
   }
-  
+
   .kodi-features__item_parag_text {
     font-size: 18px;
     line-height: 25px;
@@ -234,28 +231,28 @@
     width: 245px;
     margin-bottom: 20px;
   }
-  
+
   .kodi-features_padding {
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  
+
   .kodi-features__heading_margin {
     margin-bottom: 75px;
   }
-  
+
   .kodi-features_background {
     background-color: #f1f9ff;
   }
-  
+
   .kodi-android_padding {
     padding-top: 50px;
   }
-  
+
   .kodi-android__list_margin {
     margin-top: 41px;
   }
-  
+
   .kodi-android__list-item_text {
     font-size: 18px;
     line-height: 25px;
@@ -265,55 +262,55 @@
     margin-bottom: auto;
     margin-top: auto;
   }
-  
+
   .kodi-android__list-item-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
   }
-  
+
   .table th,
   .table td {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  
+
   thead {
     background: #f1f9ff;
     -webkit-border-radius: 10px;
-            border-radius: 10px;
+    border-radius: 10px;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
     color: #12b2e7;
   }
-  
+
   tbody {
     font-weight: 500;
     font-size: 15px;
     line-height: 21px;
     color: #555555;
   }
-  
+
   .table tr {
     border-bottom: 1px solid rgba(160, 224, 245, 0.4);
   }
-  
+
   .kodi-android__table-wrapper_border {
     border: 1px solid rgba(160, 224, 245, 0.4);
     -webkit-border-radius: 8px;
-            border-radius: 8px;
+    border-radius: 8px;
   }
-  
+
   .kodi-android__table-wrapper_margin {
     margin-top: 77px;
   }
-  
+
   .kodi-ios_padding {
     padding-top: 119px;
   }
-  
+
   .kodi-ios__ios-img {
     position: relative;
     top: -30px;
@@ -322,15 +319,15 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .kodi-ios_padding {
     padding-top: 100px;
   }
-  
+
   .kodi-ios__list_margin {
     margin-top: 41px;
   }
-  
+
   .kodi-ios__list-item_text {
     font-size: 18px;
     line-height: 25px;
@@ -340,23 +337,23 @@
     margin-bottom: auto;
     margin-top: auto;
   }
-  
+
   .kodi-ios__list-item-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
   }
-  
+
   .kodi-windows_padding {
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  
+
   .kodi-windows__list_margin {
     margin-top: 41px;
   }
-  
+
   .kodi-windows__list-item_text {
     font-size: 18px;
     line-height: 25px;
@@ -366,26 +363,26 @@
     margin-bottom: auto;
     margin-top: auto;
   }
-  
+
   .veepn-download_background {
     background: #222222;
   }
-  
+
   .veepn-download_padding {
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  
+
   .veepn-download__heading {
     font-weight: bold;
     color: #ffffff;
     text-align: center;
   }
-  
+
   .veepn-download__heading_margin {
     margin-bottom: 30px;
   }
-  
+
   .veepn-download__paragraph_text {
     font-size: 18px;
     line-height: 25px;
@@ -393,26 +390,26 @@
     color: #999999;
     width: 80%;
   }
-  
+
   .veepn-download__paragraph_margin {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
   }
-  
+
   .veepn-download__platform-ico_margin {
     margin-bottom: 30px;
   }
-  
+
   .footer_padding {
     padding-top: 28px;
     padding-bottom: 33px;
   }
-  
+
   .footer_background {
     background: #000000;
   }
-  
+
   .footer__paragraph_text {
     font-size: 14px;
     line-height: 16px;
@@ -423,7 +420,7 @@
     margin-right: auto;
   }
   /* ============================================================= */
-  
+
   /* DOWNLOAD KODI PAGE=========================================== */
 
   .download-kodi__android-img {
@@ -434,58 +431,58 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  
+
   .download-kodi_background {
-    background: #F1F9FF;
+    background: #f1f9ff;
   }
-  
+
   .download-kodi__padding {
     padding-top: 40px;
   }
-  
+
   ._position-left-top {
     left: -20px;
     top: 0;
   }
-  
+
   .__download-buttons-group-wrapper_text {
     font-weight: 500;
     font-size: 18px;
   }
-  
+
   .__download-buttons-group-wrapper_margin {
     margin-top: 47px;
   }
-  
+
   .__how-to-install_text {
     font-size: 18px;
   }
-  
+
   .kodi-macos_padding {
     padding-bottom: 10px;
   }
-  
+
   .kodi-macos__image_face {
     position: relative;
     top: 20px;
     display: block;
   }
-  
+
   .download-kodi-page-kodi-windows_padding {
     padding-top: 40px;
     padding-bottom: 10px;
   }
-  
+
   .kodi-windows_face {
     position: relative;
     top: -10px;
   }
-  
+
   .download-kodi-page-kodi-android_padding {
     padding-top: 90px;
   }
   /* ============================================================= */
-  
+
   /* DOWNLOAD KODI PAGE FOR ANDROID=============================== */
   .jumbotron__paragraph_width {
     width: 98%;
@@ -494,7 +491,7 @@
   .android-download-page__jumbotron_banner {
     max-width: 300px;
   }
-  
+
   .guide-install-android__list-item_text {
     font-size: 18px;
     line-height: 25px;
@@ -504,16 +501,16 @@
     margin-bottom: auto;
     margin-top: auto;
   }
-  
+
   .guide-install-android__list_margin {
     margin-top: 86px;
   }
-  
+
   .guide-install-android_padding {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  
+
   .guide-install-android__line {
     border: 1px solid rgba(160, 224, 245, 0.4);
     height: 160px;
@@ -525,7 +522,7 @@
     height: 300px;
   }
   /* ============================================================= */
-  
+
   /* DOWNLOAD KODI PAGE FOR IOS=================================== */
   .jumbotron__download-for-ios-page {
     position: relative;
@@ -533,45 +530,45 @@
     left: -15px;
     max-width: 280px;
   }
-  
+
   .jumbotron__download-for-ios-page-paragraph_width {
     width: 98%;
   }
-  
+
   .kodi-ios-download-page_padding {
     padding-bottom: 80px;
     padding-top: 80px;
   }
-  
+
   .kodi-ios-info_margin {
     margin-bottom: 60px;
   }
-  
+
   .kodi-ios-info__paragraph {
     font-weight: normal;
     font-size: 18px;
     color: #555555;
   }
-  
+
   .kodi-ios-info__paragraph_padding {
     padding-top: 40px;
   }
-  
+
   .kodi-ios-info_padding {
     padding-top: 120px;
     padding-bottom: 80px;
   }
-  
+
   .kodi-features__parag_text {
     font-size: 18px;
     line-height: 25px;
     color: #555555;
   }
-  
+
   .kodi-features-download-page__heading_margin {
     margin-bottom: 56px;
   }
-  
+
   .kodi-features-download-page__list > li {
     font-weight: normal;
     font-size: 18px;
@@ -584,23 +581,22 @@
     display: flex;
     vertical-align: middle;
   }
-  
+
   .kodi-features-download-page__list > li:before {
     content: "\00B7";
     margin-right: 23px;
-    color: #12B2E7;
+    color: #12b2e7;
     font-size: 50px;
   }
-  
+
   .kodi-ios__parag_text {
     font-size: 18px;
     line-height: 25px;
     color: #555555;
   }
-  
-  
+
   /* ============================================================= */
-  
+
   /* DOWNLOAD KODI PAGE FOR WINDOWS=============================== */
   .kodi-windows-download-page_padding {
     padding-bottom: 80px;
@@ -612,7 +608,7 @@
     top: 30px;
     max-width: 300px;
   }
-  
+
   .kodi-windows__parag_text {
     font-size: 18px;
     line-height: 25px;
@@ -625,7 +621,7 @@
     max-width: 300px;
   }
   /* ============================================================= */
-  
+
   /* DOWNLOAD KODI PAGE ADDONS==================================== */
   .kodi-addons-page_jumbo-banner {
     position: relative;
@@ -633,16 +629,16 @@
     left: 0;
     max-width: 300px;
   }
-  
+
   .best-kodi-addons_padding {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  
+
   .kodi-addons-page__jumbotron_paragraph_width {
     width: 81%;
   }
-  
+
   .best-kodi-addons__list-tem-name {
     font-weight: 500;
     font-size: 22px;
@@ -654,19 +650,19 @@
     display: flex;
     vertical-align: middle;
   }
-  
+
   .best-kodi-addons__list-tem-name:before {
     content: url(../img/marker.svg);
     margin-right: 24px;
-    color: #12B2E7;
+    color: #12b2e7;
   }
-  
+
   .best-kodi-addons__list-paragraph {
     font-size: 18px;
     color: #555555;
   }
   /* ============================================================= */
-  
+
   /* FREE VPN FOR KODI APGE======================================= */
   .free-vpn-page__img_position {
     position: relative;
@@ -674,69 +670,69 @@
     left: 0;
     max-width: 300px;
   }
-  
+
   .kodi-free-vpn_background {
-    background: #F1F9FF;
+    background: #f1f9ff;
   }
-  
+
   .kodi-free-vpn_padding {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  
+
   .kodi-free-vpn__paragraph {
     font-weight: normal;
     font-size: 18px;
     color: #555555;
   }
-  
+
   .kodi-free-vpn__padding {
     padding-top: 30px;
   }
-  
+
   .__paragraph-vpn-soft_text {
     font-size: 18px;
     line-height: 25px;
     color: #555555;
     width: 98%;
   }
-  
+
   .veepn-soft_padding {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  
+
   .veepn-soft__img_position {
     position: relative;
     top: -28px;
     left: 0;
     max-width: 300px;
   }
-  
+
   .free-vpn-page__header_padding {
     padding-bottom: 80px;
   }
-  
+
   .hotspot_padding {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  
+
   ._light-gray-background {
-    background: #F1F9FF;
+    background: #f1f9ff;
   }
-  
+
   .hotspot__img {
     position: relative;
     top: -50px;
     max-width: 300px;
   }
-  
+
   ._vpn-soft-padding {
     padding-top: 120px;
     padding-bottom: 50px;
   }
-  
+
   .tunnelbear__paragraph_width {
     width: 99%;
   }
@@ -744,14 +740,14 @@
   .tunnelbear {
     padding-top: 100px !important;
   }
-  
+
   .tunnelbear__img {
     position: relative;
     left: 0;
     top: -25px;
     max-width: 300px;
   }
-  
+
   .hideme__img {
     position: relative;
     top: -47px;
@@ -764,78 +760,73 @@
   /* ============================================================= */
 
   /* MODAL BANNER================================================= */
-.modal-dialog {
-  max-width: 350px;
-  margin-left: auto;
-  margin-right: auto;
+  .modal-dialog {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .modal-body {
+    padding: 0;
+    height: auto;
+    z-index: 2;
+  }
+
+  .modal__veepn-logo-img {
+    margin-bottom: 15px !important;
+  }
+
+  .modal__heading {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #333333;
+    text-align: center;
+  }
+
+  .modal__text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    color: #555555;
+  }
+
+  .modal__discount {
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 59px;
+    color: #2a4bbb;
+  }
+
+  .modal__download-button {
+    width: 290px;
+    height: 68px;
+    background: #ff5b5b;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    margin-bottom: 20px;
+    line-height: 55px;
+    font-size: 20px;
+  }
+
+  .modal__info_wrapper {
+    margin-top: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .modal__close-button {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .modal__veepn-banner {
+    position: relative;
+    top: 0;
+    left: 20px;
+    z-index: -1;
+  }
+
+  /* ============================================================= */
 }
-
-.modal-body {
-  padding: 0;
-  height: auto;
-  z-index: 2;
-}
-
-.modal__veepn-logo-img {
-  margin-bottom: 15px !important;
-}
-
-.modal__heading {
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 33px;
-  color: #333333;
-  text-align: center;
-}
-
-.modal__text {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 33px;
-  color: #555555;
-}
-
-.modal__discount {
-  font-weight: 900;
-  font-size: 52px;
-  line-height: 59px;
-  color: #2A4BBB;
-}
-
-.modal__download-button {
-  width: 290px;
-  height: 68px;
-  background: #FF5B5B;
-  -webkit-border-radius: 60px;
-          border-radius: 60px;
-  border: none;
-  margin-bottom: 20px;
-  line-height: 55px;
-  font-size: 20px;
-}
-
-.modal__info_wrapper {
-  margin-top: 30px;
-  margin-left: 0;
-  text-align: center;
-}
-
-.modal__close-button {
-  margin-top: 20px;
-  margin-right: 10px;
-}
-
-.modal__veepn-banner {
-  position: relative;
-  top: 0;
-  left: 20px;
-  z-index: -1;
-}
-
-/* ============================================================= */
-}
-
-
-
-
-

@@ -37,8 +37,8 @@ Some dicumentation things:
 
 .menu__links_margin {
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -57,12 +57,12 @@ Some dicumentation things:
 
 .menu {
   -webkit-box-shadow: 0px 5px 15px rgba(33, 51, 101, 0.1);
-          box-shadow: 0px 5px 15px rgba(33, 51, 101, 0.1);
-  background: #FFFFFF;
+  box-shadow: 0px 5px 15px rgba(33, 51, 101, 0.1);
+  background: #ffffff;
 }
 
 .active {
-  color: #12B2E7 !important;
+  color: #12b2e7 !important;
 }
 
 .nav-link:hover {
@@ -83,7 +83,13 @@ a:hover {
 }
 
 ._border-blue-line {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#12b2e7), to(#12b2e7));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#12b2e7),
+    to(#12b2e7)
+  );
   background-image: -o-linear-gradient(#12b2e7, #12b2e7);
   background-image: linear-gradient(#12b2e7, #12b2e7);
   background-size: 82px 3px;
@@ -174,7 +180,7 @@ ul {
   background: #12b2e7;
   border: 3px solid #12b2e7;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 50px;
   font-family: "Roboto";
   font-weight: 500;
@@ -203,12 +209,13 @@ ul {
   border-bottom: none !important;
 }
 /* Disable browser border over links buttons etc */
-a:active, a:focus {
-  outline: 0!important;
-  outline-color: transparent!important;
-  outline-width: 0!important;
-  outline-style: none!important;
-  box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
+a:active,
+a:focus {
+  outline: 0 !important;
+  outline-color: transparent !important;
+  outline-width: 0 !important;
+  outline-style: none !important;
+  box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
 }
 
 /*===============================================================*/
@@ -466,7 +473,7 @@ tbody {
 }
 
 .download-kodi_background {
-  background: #F1F9FF;
+  background: #f1f9ff;
 }
 
 .download-kodi__padding {
@@ -633,7 +640,7 @@ tbody {
 .kodi-features-download-page__list > li:before {
   content: "\00B7";
   margin-right: 35px;
-  color: #12B2E7;
+  color: #12b2e7;
   font-size: 65px;
 }
 
@@ -705,7 +712,7 @@ tbody {
 .best-kodi-addons__list-tem-name:before {
   content: url(../img/marker.svg);
   margin-right: 24px;
-  color: #12B2E7;
+  color: #12b2e7;
 }
 
 .best-kodi-addons__list-paragraph {
@@ -723,7 +730,7 @@ tbody {
 }
 
 .kodi-free-vpn_background {
-  background: #F1F9FF;
+  background: #f1f9ff;
 }
 
 .kodi-free-vpn_padding {
@@ -770,7 +777,7 @@ tbody {
 }
 
 ._light-gray-background {
-  background: #F1F9FF;
+  background: #f1f9ff;
 }
 
 .hotspot__img {
@@ -831,20 +838,20 @@ tbody {
   font-weight: 900;
   font-size: 72px;
   line-height: 79px;
-  color: #2A4BBB;
+  color: #2a4bbb;
 }
 
 .modal__download-button {
   width: 389px;
   height: 88px;
-  background: #FF5B5B;
+  background: #ff5b5b;
   border-radius: 60px;
   border: none;
   font-weight: 500;
   font-size: 28px;
   line-height: 75px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .modal__download-button:hover {

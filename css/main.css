@@ -357,7 +357,7 @@ tbody {
 }
 
 .kodi-ios__ios-img {
-  max-width: 488px;
+  width: 472px;
   position: relative;
   top: 15px;
 }
@@ -471,6 +471,10 @@ tbody {
 
 .download-kodi__padding {
   padding-top: 40px;
+}
+
+.kodi-ios__download-page-ios-img {
+  max-width: 420px;
 }
 
 ._position-left-top {

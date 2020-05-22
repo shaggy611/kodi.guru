@@ -1,13 +1,18 @@
 
 @media (min-width: 320px) and (max-width: 768px) {
   /*COMMON STYLES=============================*/
+
   .row {
       margin-left: 20px;
       margin-right: 20px;
   }
 
   .menu__logo {
-      width: 70%;
+      width: 60px;
+      image-rendering: crisp-edges;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -o-crisp-edges;
+      image-rendering: -moz-crisp-edges;
   }
   .main-container {
     font-family: "Roboto";
@@ -19,7 +24,7 @@
   }
   
   .menu__links_margin {
-    margin-top: 50px;
+    margin-top: 12px;
   }
   
   .navbar-light .navbar-nav .nav-link {
@@ -313,7 +318,9 @@
     position: relative;
     top: -30px;
     display: block;
-    max-width: 290px;
+    /* width: 350px; */
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .kodi-ios_padding {
@@ -418,6 +425,11 @@
   /* ============================================================= */
   
   /* DOWNLOAD KODI PAGE=========================================== */
+
+  .download-kodi__android-img {
+    position: relative;
+    top: -30px;
+  }
   .download-kodi_padding {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -470,7 +482,7 @@
   }
   
   .download-kodi-page-kodi-android_padding {
-    padding-top: 70px;
+    padding-top: 90px;
   }
   /* ============================================================= */
   
@@ -799,6 +811,7 @@
   border: none;
   margin-bottom: 20px;
   line-height: 55px;
+  font-size: 20px;
 }
 
 .modal__info_wrapper {

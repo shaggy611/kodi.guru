@@ -37,6 +37,8 @@
     font-size: 20px;
     line-height: 21px;
     color: #333333;
+    text-align: center;
+    display: initial;
   }
 
   .nav-link_margin {
@@ -847,6 +849,9 @@
 
   .download-kodi__android-img {
     max-width: 355px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -25px;
   }
 
 

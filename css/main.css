@@ -131,6 +131,9 @@ a:hover {
 ._border-blue-line-position-left {
   background-position: left bottom;
 }
+.menu__logo {
+  width: 70px;
+ }
 
 .list-marker_style {
   width: 38px;
@@ -247,7 +250,7 @@ a:focus {
 }
 
 .jumbotron_banner {
-  max-width: 560px;
+  max-width: 561px;
 }
 
 .jumbotron_banner_position {
@@ -684,7 +687,7 @@ tbody {
 .download-for-windows-page__jumbo-banner {
   position: relative;
   top: -30px;
-  max-width: 500px;
+  max-width: 499px;
 }
 
 .download-for-windows-page__windows-download-img {
@@ -740,7 +743,7 @@ tbody {
   position: absolute;
   top: -170px;
   left: -50px;
-  max-width: 615px;
+  max-width: 616px;
   -ms-interpolation-mode: nearest-neighbor;
       image-rendering: -webkit-optimize-contrast;
       image-rendering: -moz-crisp-edges;

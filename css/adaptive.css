@@ -8,10 +8,6 @@
 
   .menu__logo {
     width: 60px;
-    image-rendering: crisp-edges;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: -o-crisp-edges;
-    image-rendering: -moz-crisp-edges;
   }
   .main-container {
     font-family: "Roboto";

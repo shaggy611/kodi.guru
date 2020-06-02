@@ -30,6 +30,22 @@ Some dicumentation things:
 /*==========================================*/
 
 /*COMMON STYLES=============================*/
+.navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:active {
+  outline-width: 0 !important;
+}
+
+.navbar-light .navbar-toggler::-moz-focus-inner {
+  border: 0 !important;
+}
+
+.modal__close-button:focus, .modal__close-button:active {
+  outline-width: 0 !important;
+}
+
+.modal__close-button::-moz-focus-inner {
+  border: 0 !important;
+}
+
 .main-container {
   font-family: "Roboto";
   font-weight: 400;
@@ -60,6 +76,7 @@ Some dicumentation things:
   -webkit-box-shadow: 0px 5px 15px rgba(33, 51, 101, 0.1);
   box-shadow: 0px 5px 15px rgba(33, 51, 101, 0.1);
   background: #ffffff;
+  height: 100px;
 }
 
 .active {
@@ -132,7 +149,8 @@ a:hover {
   background-position: left bottom;
 }
 .menu__logo {
-  width: 70px;
+  width: 85px;
+  margin-top: 5px;
  }
 
 .list-marker_style {
@@ -424,6 +442,11 @@ tbody {
   display: inline-block;
   margin-bottom: auto;
   margin-top: auto;
+}
+
+.veepn-download__appstore-banner {
+  width: 220px;
+  height: 60px;
 }
 
 .veepn-download_background {

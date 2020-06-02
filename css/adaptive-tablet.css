@@ -29,6 +29,11 @@
     margin-top: 50px;
   }
 
+  .menu {
+    height: auto;
+    margin-top: 0;
+  }
+
   .navbar-light .navbar-nav .nav-link {
     color: #333333;
   }

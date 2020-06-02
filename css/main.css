@@ -856,12 +856,12 @@ tbody {
 
 /* MODAL BANNER================================================= */
 .modal-dialog {
-  max-width: 1176px;
+  max-width: 1045px;
 }
 
 .modal-body {
   padding: 0;
-  height: 821px;
+  height: 741px;
   z-index: 2;
 }
 
@@ -887,15 +887,15 @@ tbody {
 }
 
 .modal__download-button {
-  width: 389px;
-  height: 88px;
+  width: 350px;
+  height: 75px;
   background: #ff5b5b;
   -webkit-border-radius: 60px;
           border-radius: 60px;
   border: none;
   font-weight: 500;
   font-size: 28px;
-  line-height: 75px;
+  line-height: 59px;
   text-align: center;
   color: #ffffff;
 }
@@ -905,8 +905,8 @@ tbody {
 }
 
 .modal__info_wrapper {
-  margin-top: 149px;
-  margin-left: 70px;
+  margin-top: 123px;
+  margin-left: 49px;
 }
 
 .modal__close-button {
@@ -916,8 +916,10 @@ tbody {
 
 .modal__veepn-banner {
   position: relative;
-  top: -22px;
+  top: 10px;
   z-index: -1;
+  max-width: 471px;
+  left: 26px;
 }
 
 .mainpage__android-download-img {
